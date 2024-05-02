@@ -132,3 +132,24 @@ git checkout nome-da-branch
 Isso mudará para a branch desejada.
 
 Depois de seguir esses passos, você terá baixado o projeto do GitHub para o seu computador e estará pronto para começar a trabalhar nele localmente.
+
+
+# baixar atualização da master
+
+Para atualizar o seu projeto local diretamente da branch master do repositório remoto, você precisa primeiro garantir que está na sua branch local, e então pode usar o comando `git pull`. Aqui está como você pode fazer isso:
+
+1. **Certifique-se de estar na sua branch local:** Antes de tudo, você precisa estar na branch local onde deseja aplicar as atualizações. Por exemplo, se você está trabalhando na sua branch `feature`, você pode mudar para ela usando:
+
+```bash
+git checkout feature
+```
+
+2. **Atualize o seu projeto local:** Depois de garantir que está na branch local correta, você pode atualizar o seu projeto local diretamente da branch master do repositório remoto utilizando o comando `git pull`. Basta executar:
+
+```bash
+git pull origin master
+```
+
+Isso irá puxar as mudanças da branch master do repositório remoto para a sua branch local. Se houver conflitos, o Git tentará fundir automaticamente as alterações. Se não for possível, você precisará resolver os conflitos manualmente e depois fazer um novo commit.
+
+Após executar `git pull`, seu projeto local estará atualizado com as últimas alterações da branch master do repositório remoto.
