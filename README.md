@@ -153,3 +153,11 @@ git pull origin master
 Isso irá puxar as mudanças da branch master do repositório remoto para a sua branch local. Se houver conflitos, o Git tentará fundir automaticamente as alterações. Se não for possível, você precisará resolver os conflitos manualmente e depois fazer um novo commit.
 
 Após executar `git pull`, seu projeto local estará atualizado com as últimas alterações da branch master do repositório remoto.
+
+# fluxo para o projeto
+# 1 baixe o projeto em sua maquina
+# 3 abrir o projeto no visual studio 2022, e baixar os pacotes do nuget
+# 3 criar sua branch
+# 4 fazer uma automação
+# 5 testa-la
+# 6 enviar para a branch master
