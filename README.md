@@ -66,3 +66,40 @@ git push origin develop: subir alterações
 
 para pegar alterações
 git pull origin develop: pegar as alterações feitas
+
+#para baixar o projeto
+Para baixar um projeto do GitHub, você pode seguir estes passos básicos usando o Git:
+
+1. **Clone o repositório:** Use o comando `git clone` seguido pelo URL do repositório GitHub. Por exemplo:
+
+```bash
+git clone https://github.com/usuario/nome-do-repositorio.git
+```
+
+Isso criará uma cópia do repositório no seu computador.
+
+2. **Mude para o diretório do repositório:** Use o comando `cd` para entrar no diretório do repositório que você acabou de clonar. Por exemplo:
+
+```bash
+cd nome-do-repositorio
+```
+
+Agora você está dentro do diretório do projeto.
+
+3. **Verifique as branches disponíveis (opcional):** Você pode verificar todas as branches disponíveis no repositório usando:
+
+```bash
+git branch -a
+```
+
+Isso listará todas as branches locais e remotas.
+
+4. **Selecione a branch desejada (opcional):** Se você quiser mudar para uma branch específica, use o comando `git checkout` seguido pelo nome da branch. Por exemplo:
+
+```bash
+git checkout nome-da-branch
+```
+
+Isso mudará para a branch desejada.
+
+Depois de seguir esses passos, você terá baixado o projeto do GitHub para o seu computador e estará pronto para começar a trabalhar nele localmente.
