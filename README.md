@@ -49,25 +49,54 @@
 
 criação de nova branch
 Dentro da pasta do seu projeto dentro do terminal:
-1. Certifique-se de estar na branch master: Primeiro, você precisa garantir que está na branch master. Você pode verificar isso executando git status no terminal.
+Para criar uma nova branch a partir da branch master em um repositório Git, você pode seguir estes passos:
 
-2. digite git checkout -b nome-da-sua-nova-branch-exemplo
+1. **Certifique-se de estar na branch master:** Primeiro, você precisa garantir que está na branch master. Você pode verificar isso executando `git status` no terminal.
 
-3. Faça suas alterações: Agora que você está na nova branch, você pode fazer suas alterações, adicionar, e fazer commit como de costume.
+2. **Crie a nova branch:** Use o comando `git checkout -b` seguido pelo nome da nova branch que você deseja criar. Por exemplo:
+   
+   ```bash
+   git checkout -b nome-da-sua-nova-branch
+   ```
 
-4. Faça push da nova branch para o repositório remoto (opcional): Se você quiser compartilhar sua nova branch com outros colaboradores ou com o repositório remoto, você pode fazer push usando:
-git push origin nome-da-sua-nova-branch-exemplo
+   Isso irá criar e mudar para a nova branch.
+
+3. **Faça suas alterações:** Agora que você está na nova branch, você pode fazer suas alterações, adicionar, e fazer commit como de costume.
+
+4. **Faça push da nova branch para o repositório remoto (opcional):** Se você quiser compartilhar sua nova branch com outros colaboradores ou com o repositório remoto, você pode fazer push usando:
+   
+   ```bash
+   git push origin nome-da-sua-nova-branch
+   ```
+
+   Isso enviará a nova branch para o repositório remoto.
+
+Depois de seguir esses passos, você terá criado uma nova branch a partir da branch master.
 
 # Dicas para subir um projeto
-depois de criada a branch e feitas as alterações faça:
-git add . 
-git commit -m'mensagem aqui'
-git push origin develop: subir alterações 
+Para subir (ou "enviar") um projeto para um repositório remoto no GitHub (ou em qualquer outro servidor Git), você geralmente segue estes passos básicos:
 
-para pegar alterações
-git pull origin develop: pegar as alterações feitas
+1. **Adicione e faça commit das suas alterações:** Primeiro, você precisa adicionar os arquivos alterados ao seu commit e fazer o commit das alterações localmente. Use os seguintes comandos:
 
-#para baixar o projeto
+```bash
+git add .
+git commit -m "Mensagem do commit"
+```
+
+Substitua `"Mensagem do commit"` por uma descrição significativa das alterações que você está enviando.
+
+2. **Envie as alterações para o repositório remoto:** Depois de ter feito o commit das suas alterações localmente, você pode enviá-las para o repositório remoto usando o comando `git push`. Se for a primeira vez que você está enviando uma branch para o repositório remoto, você precisará especificar a branch e o repositório remoto. Por exemplo:
+
+```bash
+git push origin nome-da-sua-branch
+```
+
+Isso enviará os commits locais da sua branch para o repositório remoto, onde eles ficarão disponíveis para outros colaboradores ou para acesso público.
+
+Se você quiser enviar uma branch diferente da master (ou outra branch padrão), substitua `nome-da-sua-branch` pelo nome da branch que você deseja enviar.
+
+Lembre-se de que você precisa ter permissão de escrita no repositório remoto para poder enviar as alterações. Se você estiver trabalhando em um repositório fork ou colaborando em um projeto, talvez precise criar uma pull request ou solicitar permissão de escrita ao proprietário do repositório.
+# para baixar o projeto
 Para baixar um projeto do GitHub, você pode seguir estes passos básicos usando o Git:
 
 1. **Clone o repositório:** Use o comando `git clone` seguido pelo URL do repositório GitHub. Por exemplo:
