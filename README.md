@@ -161,3 +161,7 @@ Após executar `git pull`, seu projeto local estará atualizado com as últimas 
 # 4 fazer uma automação
 # 5 testa-la
 # 6 enviar para a branch master
+
+# dica: usem as classes já criadas como exemplo para criar novos cenários de teste, vendo essa base vocês já podem criar outros fluxos de compra ou até mesmo outros fluxos.
+vocês em 99% dos casos irão manipular apenas as pastas elements, pages, feature e step definition
+
