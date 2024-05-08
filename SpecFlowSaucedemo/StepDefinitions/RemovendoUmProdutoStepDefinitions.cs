@@ -57,7 +57,7 @@ namespace SpecFlowSaucedemo.StepDefinitions
         [Then(@"O produto adicionado deve ser removido do carrinho")]
         public void ThenOProdutoAdicionadoDeveSerRemovidoDoCarrinho()
         {
-            // teste
+            // teste2
         }
 
         [Given(@"Apos o produto ser removido do carrinho")]
