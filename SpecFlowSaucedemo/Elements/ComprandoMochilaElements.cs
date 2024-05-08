@@ -10,6 +10,7 @@ namespace SpecFlowProject1.Elements
     public class ComprandoMochilaElements
     {
         public const string ImageMochila = "//*[@id=\"item_4_img_link\"]/img";
+        public const string ValidaImagemMochila = "//*[@id=\"inventory_item_container\"]/div/div/div[1]/img";
         public const string AddtoCart = "add-to-cart";
         public const string BtnCart = "//*[@id=\"shopping_cart_container\"]/a";
         public const string BtnCheckout = "checkout";
@@ -22,5 +23,6 @@ namespace SpecFlowProject1.Elements
         public const string BtnFinish = "finish";
 
         public const string ValidateXpath = "//*[@id=\"checkout_complete_container\"]/h2";
+        
     }
 }

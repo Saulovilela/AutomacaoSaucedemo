@@ -24,6 +24,7 @@ namespace SpecFlowSaucedemo.StepDefinitions
             comprandoMochilaPage.ClicarImagemMochila(driver);
         }
 
+        
         [When(@"clicar em add ao carrinho")]
         public void WhenClicarEmAddAoCarrinho()
         {
