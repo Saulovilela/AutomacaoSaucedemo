@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{753C2279-2AF2-416C-82C0-F1BD8DA5F0E4}|SpecFlowSaucedemo\\SpecFlowSaucedemo.csproj|solutionrelative:specflowsaucedemo\\stepdefinitions\\removendoumprodutostepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753C2279-2AF2-416C-82C0-F1BD8DA5F0E4}|SpecFlowSaucedemo\\SpecFlowSaucedemo.csproj|c:\\automacaosaucedemo\\specflowsaucedemo\\features\\removendocarrinho.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{753C2279-2AF2-416C-82C0-F1BD8DA5F0E4}|SpecFlowSaucedemo\\SpecFlowSaucedemo.csproj|C:\\AutomacaoSaucedemo\\specflowsaucedemo\\features\\removendocarrinho.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{753C2279-2AF2-416C-82C0-F1BD8DA5F0E4}|SpecFlowSaucedemo\\SpecFlowSaucedemo.csproj|solutionrelative:specflowsaucedemo\\features\\removendocarrinho.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -44,8 +44,7 @@
               "RelativeToolTip": "SpecFlowSaucedemo\\Features\\RemovendoCarrinho.feature",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABQAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-05-08T17:37:44.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T17:37:44.603Z"
             }
           ]
         }
