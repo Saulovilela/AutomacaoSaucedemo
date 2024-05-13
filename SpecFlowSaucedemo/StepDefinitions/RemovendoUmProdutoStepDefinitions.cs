@@ -9,7 +9,7 @@ namespace SpecFlowSaucedemo.StepDefinitions
     [Binding]
     public class RemovendoUmProdutoStepDefinitions
     {
-        private readonly IWebDriver driver; // estamos chando o selenium para esse stepdefinition
+        private readonly IWebDriver driver; // estamos chamando o selenium para esse stepdefinition
 
         public RemovendoUmProdutoStepDefinitions()
         {
@@ -21,7 +21,8 @@ namespace SpecFlowSaucedemo.StepDefinitions
         {
         }
 
-        [When(@"Clico em Add to cart")]public void WhenClicoEmAddToCart()
+        [When(@"Clico em Add to cart")]
+        public void WhenClicoEmAddToCart()
         {
             Thread.Sleep(4000);
             RemovendoCarrinhoPage removendocarrinhopage = new RemovendoCarrinhoPage();
